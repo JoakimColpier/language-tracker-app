@@ -1,0 +1,74 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LanguageListenings" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Add common stuff here -->
+    </style>
+
+    <!-- Specific language themes. -->
+    <style name="Theme.LanguageListenings.NL" parent="Theme.LanguageListenings">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/lightorange_nl</item>
+        <item name="colorPrimaryVariant">@color/darkorange_nl</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_nl</item>
+        <item name="colorSecondaryVariant">@color/blue_nl</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Table colors (data fragment). -->
+        <item name="colorPrimaryContainer">@color/white</item>
+        <item name="colorOnPrimaryContainer">@color/black</item>
+        <item name="colorSecondaryContainer">@color/tableblue_nl</item>
+        <item name="colorOnSecondaryContainer">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.LanguageListenings.ES" parent="Theme.LanguageListenings">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/red_es</item>
+        <item name="colorPrimaryVariant">@color/orange_es</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_es</item>
+        <item name="colorSecondaryVariant">@color/lightblue_es</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Table colors (data fragment). -->
+        <item name="colorPrimaryContainer">@color/white</item>
+        <item name="colorOnPrimaryContainer">@color/black</item>
+        <item name="colorSecondaryContainer">@color/tableblue_es</item>
+        <item name="colorOnSecondaryContainer">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.LanguageListenings.GE" parent="Theme.LanguageListenings">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/darkred_ge</item>
+        <item name="colorPrimaryVariant">@color/white_ge</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/darkred_ge</item>
+        <item name="colorSecondaryVariant">@color/darkred_ge</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Table colors (data fragment). -->
+        <item name="colorPrimaryContainer">@color/white</item>
+        <item name="colorOnPrimaryContainer">@color/black</item>
+        <item name="colorSecondaryContainer">@color/tablered_ge</item>
+        <item name="colorOnSecondaryContainer">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--other-->
+    <style name="Theme.LanguageListenings.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.LanguageListenings.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.LanguageListenings.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

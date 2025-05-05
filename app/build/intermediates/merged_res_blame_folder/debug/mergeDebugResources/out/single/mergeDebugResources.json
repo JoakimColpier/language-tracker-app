@@ -1,0 +1,294 @@
+[
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable-xxxhdpi_ic_show_chart.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable-xxxhdpi\\ic_show_chart.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-xxhdpi_ge_flag_round.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-xxhdpi\\ge_flag_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-hdpi_nl_flag_round.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-hdpi\\nl_flag_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-xxxhdpi_es_flag_round.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-xxxhdpi\\es_flag_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-xxxhdpi_nl_flag_round.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-xxxhdpi\\nl_flag_round.png"
+    },
+    {
+        "merged": "com.example.languagelistenings.app-debug-46:/layout_fragment_comment.xml.flat",
+        "source": "com.example.languagelistenings.app-main-48:/layout/fragment_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable_nav_item_background.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable\\nav_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-hdpi_es_flag_round.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-hdpi\\es_flag_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-hdpi_ge_flag_round.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-hdpi\\ge_flag_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-xhdpi_es_flag_round.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-xhdpi\\es_flag_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable-hdpi_ic_table_chart.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable-hdpi\\ic_table_chart.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-mdpi_es_flag_round.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-mdpi\\es_flag_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable-xhdpi_ic_show_chart.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable-xhdpi\\ic_show_chart.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable-xxxhdpi_ic_table_chart.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable-xxxhdpi\\ic_table_chart.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\layout_fragment_data.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\layout\\fragment_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\layout_language_selection_menu.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\layout\\language_selection_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-xhdpi_ge_flag_round.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-xhdpi\\ge_flag_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable-xhdpi_ic_table_chart.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable-xhdpi\\ic_table_chart.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable-hdpi_ic_show_chart.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable-hdpi\\ic_show_chart.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\layout_fragment_stats.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\layout\\fragment_stats.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\menu_activity_main_drawer.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable-mdpi_ic_table_chart.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable-mdpi\\ic_table_chart.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-xxhdpi_nl_flag_round.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-xxhdpi\\nl_flag_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable-mdpi_ic_show_chart.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable-mdpi\\ic_show_chart.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable-xxhdpi_image_nl_flag.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable-xxhdpi\\image_nl_flag.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-mdpi_nl_flag_round.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-mdpi\\nl_flag_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\layout_nav_header_main.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\layout_popup_window.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\layout\\popup_window.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable-xxhdpi_ic_table_chart.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable-xxhdpi\\ic_table_chart.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-xxhdpi_es_flag_round.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-xxhdpi\\es_flag_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-xhdpi_nl_flag_round.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-xhdpi\\nl_flag_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable_side_nav_bar.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable-xhdpi_image_nl_flag.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable-xhdpi\\image_nl_flag.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\menu_main.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable_ic_menu_gallery.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable\\ic_menu_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable_ic_menu_camera.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-mdpi_ge_flag_round.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-mdpi\\ge_flag_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable-xxhdpi_ic_show_chart.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable-xxhdpi\\ic_show_chart.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\layout_fragment_add.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\layout\\fragment_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable_ic_menu_slideshow.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable\\ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable-hdpi_image_nl_flag.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable-hdpi\\image_nl_flag.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable-xxxhdpi_image_nl_flag.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable-xxxhdpi\\image_nl_flag.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\layout_app_bar_main.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-xxxhdpi_ge_flag_round.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-xxxhdpi\\ge_flag_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable_nav_item_selected_background.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable\\nav_item_selected_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable_circle_around_language.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable\\circle_around_language.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\layout_fragment_comment.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\layout\\fragment_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\color_nav_item_text_color.xml.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\color\\nav_item_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\drawable-mdpi_image_nl_flag.png.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\drawable-mdpi\\image_nl_flag.png"
+    },
+    {
+        "merged": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-debug-46:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\jocke\\.gradle\\daemon\\8.7\\com.example.languagelistenings.app-main-48:\\mipmap-mdpi\\ic_launcher_round.webp"
+    }
+]

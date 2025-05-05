@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Language Listenings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Current Language</string>
+    <string name="nav_header_subtitle">click on flag to change language</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_add">Add</string>
+    <string name="menu_data">Data</string>
+    <string name="menu_stats">Statistics</string>
+</resources>

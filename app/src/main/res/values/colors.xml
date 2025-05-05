@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Change from here... -->
+    <color name="lightorange_nl">#FF7901</color>
+    <color name="darkorange_nl">#FF3D00</color>
+    <color name="white_nl">#F3F3F3</color>
+    <color name="blue_nl">#018FCC</color>
+    <color name="tableblue_nl">#C9DDF2</color>
+
+    <color name="green_es">#5CD6B7</color>
+    <color name="lightblue_es">#0099DE</color>
+    <color name="blue_es">#1F55A6</color>
+    <color name="yellow_es">#F0C126</color>
+    <color name="orange_es">#FD8F03</color>
+    <color name="red_es">#DF1C44</color>
+    <color name="tableblue_es">#C9DDF2</color>
+
+    <color name="white_ge">#F3F3F3</color>
+    <color name="lightred_ge">#FF0000</color>
+    <color name="darkred_ge">#DF1C44</color>
+    <color name="tablered_ge">#FFB8B8</color>
+    <!-- ...to here -->
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

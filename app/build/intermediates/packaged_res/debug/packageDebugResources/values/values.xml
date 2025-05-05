@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue_es">#1F55A6</color>
+    <color name="blue_nl">#018FCC</color>
+    <color name="darkorange_nl">#FF3D00</color>
+    <color name="darkred_ge">#DF1C44</color>
+    <color name="green_es">#5CD6B7</color>
+    <color name="lightblue_es">#0099DE</color>
+    <color name="lightorange_nl">#FF7901</color>
+    <color name="lightred_ge">#FF0000</color>
+    <color name="orange_es">#FD8F03</color>
+    <color name="red_es">#DF1C44</color>
+    <color name="tableblue_es">#C9DDF2</color>
+    <color name="tableblue_nl">#C9DDF2</color>
+    <color name="tablered_ge">#FFB8B8</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_ge">#F3F3F3</color>
+    <color name="white_nl">#F3F3F3</color>
+    <color name="yellow_es">#F0C126</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Language Listenings</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_data">Data</string>
+    <string name="menu_stats">Statistics</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_subtitle">click on flag to change language</string>
+    <string name="nav_header_title">Current Language</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <style name="Theme.LanguageListenings" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+    </style>
+    <style name="Theme.LanguageListenings.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.LanguageListenings.ES" parent="Theme.LanguageListenings">
+        
+        <item name="colorPrimary">@color/red_es</item>
+        <item name="colorPrimaryVariant">@color/orange_es</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/blue_es</item>
+        <item name="colorSecondaryVariant">@color/lightblue_es</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="colorPrimaryContainer">@color/white</item>
+        <item name="colorOnPrimaryContainer">@color/black</item>
+        <item name="colorSecondaryContainer">@color/tableblue_es</item>
+        <item name="colorOnSecondaryContainer">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="Theme.LanguageListenings.GE" parent="Theme.LanguageListenings">
+        
+        <item name="colorPrimary">@color/darkred_ge</item>
+        <item name="colorPrimaryVariant">@color/white_ge</item>
+        <item name="colorOnPrimary">@color/black</item>
+        
+        <item name="colorSecondary">@color/darkred_ge</item>
+        <item name="colorSecondaryVariant">@color/darkred_ge</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="colorPrimaryContainer">@color/white</item>
+        <item name="colorOnPrimaryContainer">@color/black</item>
+        <item name="colorSecondaryContainer">@color/tablered_ge</item>
+        <item name="colorOnSecondaryContainer">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="Theme.LanguageListenings.NL" parent="Theme.LanguageListenings">
+        
+        <item name="colorPrimary">@color/lightorange_nl</item>
+        <item name="colorPrimaryVariant">@color/darkorange_nl</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/blue_nl</item>
+        <item name="colorSecondaryVariant">@color/blue_nl</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="colorPrimaryContainer">@color/white</item>
+        <item name="colorOnPrimaryContainer">@color/black</item>
+        <item name="colorSecondaryContainer">@color/tableblue_nl</item>
+        <item name="colorOnSecondaryContainer">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="Theme.LanguageListenings.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.LanguageListenings.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>
