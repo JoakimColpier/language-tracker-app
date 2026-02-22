@@ -1,33 +1,24 @@
 package com.example.languagelistenings;
 
-import static android.app.PendingIntent.getActivity;
-
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.util.TypedValue;
-import android.view.Gravity;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.Menu;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
-import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
-import com.example.languagelistenings.ui.data.DataFragment;
-import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.navigation.NavController;
-import androidx.navigation.NavOptions;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
@@ -35,6 +26,11 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.languagelistenings.databinding.ActivityMainBinding;
+
+// Good links!
+// Image rounder: https://onlinepngtools.com/round-png-corners
+// Image to android files: https://romannurik.github.io/AndroidAssetStudio/icons-generic.html // asset size 92, 4dp padding
+// Find icons: https://romannurik.github.io/AndroidAssetStudio/index.html
 
 public class MainActivity extends AppCompatActivity {
     private AppBarConfiguration mAppBarConfiguration;
@@ -51,6 +47,9 @@ public class MainActivity extends AppCompatActivity {
         // Theme based on language
         languageDict.addContext(this);
         setTheme(languageDict.getCurrentLanguageInfo().getTheme());
+
+        // Always use light theme
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
 
         // Other
         super.onCreate(savedInstanceState);
@@ -86,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
         flagHolder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setCircleColor(com.google.android.material.R.attr.colorSecondary);
+                setCircleColor(R.attr.variantColor);
                 showLanguageSelectionMenu(view);
             }
         });
@@ -125,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     // Reset circle color
-                    setCircleColor(com.google.android.material.R.attr.colorPrimaryVariant);
+                    setCircleColor(R.attr.navBarColor);
 
                     // Restart the MainActivity to apply the language change
                     Intent intent = new Intent(MainActivity.this, MainActivity.class);
@@ -149,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
         popupWindow.setOnDismissListener(new PopupWindow.OnDismissListener() {
             @Override
             public void onDismiss() {
-                setCircleColor(com.google.android.material.R.attr.colorPrimaryVariant);
+                setCircleColor(R.attr.navBarColor);
             }
         });
     }

@@ -3,7 +3,7 @@
     android:shape="oval">
     <solid
         android:id="@+id/colorCircle"
-        android:color="?attr/colorPrimaryVariant"/>
+        android:color="?attr/navBarColor"/>
     <!-- not used
     <stroke
         android:width="2dp"

@@ -2,7 +2,7 @@
 Android app for documenting the amount of time spent listening to a certain language.
 
 <div style="text-align:center">
-<img src="app_icon.png" alt="navbar showcase" width="40%"/>
+<img src="media/image/app_icon.png" alt="navbar showcase" width="40%"/>
 </div>
 
 ## Introduction
@@ -13,48 +13,154 @@ This is why I created this android application: to _swiftly and satisfyingly_ be
 
 ## How to use
 
-There is a navigation bar to the left, with which you can navigate through three screens: Add, Data and Statistics.
+<table>
+  <tr>
+    <th align="center">Feature</th>
+    <th align="center" colspan="3">Gifs</th>
+  </tr>
+  <!-- Navigation bar -->
+  <tr>
+    <td valign="top" width="400">
+      <b>Navigation bar</b><br>
+      <hr>
+      <ul>
+        <li> Tap hamburger icon to the left
+        <li> Navigable screens:
+        <ul>
+            <li> Add screen
+            <li> Data screen
+            <li> Statistics screen
+        </ul>
+        <li> Change language by clicking on flag
+        <ul>
+            <li> Language offer customizable
+            <li> See how to add languages <a href="#Setup">below</a>
+        </ul>
+        <li> App remembers which language you last modified
+        <ul>
+            <li> Automatically boots it up next time you open the app
+        </ul>
+      </ul>
+    </td>
+    <td align="left" valign="top">
+        <details>
+          <summary><b>🧭Navbar</b></summary>
+          <img src="media/gif/navigation_bar.gif" alt="navbar showcase" width="150">
+        </details>
+        <details>
+          <summary><b>🌐Language</b></summary>
+          <img src="media/gif/change_language.gif" alt="change language showcase" width="150">
+        </details>
+    </td>
+  </tr>
+  <!-- Add screen -->
+  <tr>
+    <td valign="top" width="400">
+      <b>Add screen</b><br>
+      <hr>
+      <ul>
+        <li> Default screen
+        <li> Add values to database
+        <ul>
+            <li> Date automatically set to today (may be changed)
+            <li> Comment is optional
+        </ul>
+        <li> Input is controlled
+        <ul>
+            <li> Date is valid
+            <li> Time is positive integer
+        </ul>
+        <li> Press button at bottom right to go to data screen
+        <ul>
+            <li> Faster and more handy than passing through navigation bar
+        </ul>
+      </ul>
+    </td>
+    <td align="left" valign="top">
+        <details>
+          <summary><b>➕Add</b></summary>
+          <img src="media/gif/add_screen.gif" alt="add showcase" width="150">
+        </details>
+        <details>
+          <summary><b>⚠️Check errors</b></summary>
+          <img src="media/gif/control_input.gif" alt="check error showcase" width="150">
+        </details>
+        <details>
+          <summary><b>➡️🗂️To data</b></summary>
+          <img src="media/gif/go_to_data.gif" alt="add to data showcase" width="150">
+        </details>
+    </td>
+  </tr>
+  <!-- Data screen -->
+  <tr>
+    <td valign="top" width="400">
+      <b>Data screen</b><br>
+      <hr>
+      <ul>
+        <li> All previous data per date, from newest at the top to oldest at the bottom
+        <li> Scrollable screen
+        <li> Can click on entry to see individual listenings
+        <ul>
+            <li> Click on the individual listenings to change/remove
+        </ul>
+        <li> Button at bottom right to go directly to add sreen
+      </ul>
+    </td>
+    <td align="left" valign="top">
+        <details>
+          <summary><b>🗂️Data screen</b></summary>
+          <img src="media/gif/data_screen.gif" alt="comment showcase" width="150">
+        </details>
+        <details>
+          <summary><b>✏️Modify data</b></summary>
+          <img src="media/gif/change_listening.gif" alt="change listening showcase" width="150">
+        </details>
+    </td>
+  </tr>
+  <!-- Statistics screen -->
+  <tr>
+    <td valign="top" width="400">
+      <b>Statistics screen</b><br>
+      <hr>
+      <ul>
+        <li> See graph of listenings per date
+        <li> Read it left to right
+        <li> The scope of the graph can be reduced from bullets at the bottom
+        <ul>
+            <li> Only showcase data from previous week
+            <li> Only showcase data from previous month
+            <li> Showcase all data
+        </ul>
+        <li> Averages can be shown on top of each other from tags at the top
+        <ul>
+            <li> Daily average in black
+            <li> Weekly average in <font color='red'>red</font>
+            <li> Monthly average (i.e. 30 days) in <font color='blue'>blue</font>
+        </ul>
+      </ul>
+    </td>
+    <td align="left" valign="top">
+        <details>
+          <summary><b>📈Statistics</b></summary>
+          <img src="media/gif/statistic_screen.gif" alt="statistics showcase" width="150">
+        </details>
+    </td>
+  </tr>
 
-<img src="media/navigation_bar.gif" alt="navbar showcase" width="10%"/>
-
-There, you can also change the language by clicking on the flag.
-
-<img src="media/change_language.gif" alt="change language showcase" width="10%"/>
-
-The app will remember which language you last modified, and will boot it up there next time you open the app.
-
-### Add screen
-
-The first screen. It is used to add values to the database. The date will automatically be set to today's date, but may be changed. Comments may or may not be present.
-
-<img src="media/add_screen.gif" alt="add showcase" width="10%"/>
-
-The input is automatically controlled for date validity and non-negativity of time amount before adding. 
-
-<img src="media/control_input.gif" alt="check error showcase" width="10%"/>
-
-There is a button at the bottom right of the screen. This can be pressed to directly going to the data screen without going through the navigation bar.
-
-<img src="media/go_to_data.gif" alt="add to data showcase" width="10%"/>
-
-
-### Data screen
-
-Here, all data will be presented from newest at the top and oldest at the bottom. This screen is scrollable. By clicking on a table entry with the comment column set to `YES`, a comment screen will pop up with that date's weekday, week number, and all comments.
-
-<img src="media/data_screen.gif" alt="comment showcase" width="10%"/>
-
-There is a button at the bottom right of the screen. This can be pressed to directly going to the add screen without going through the navigation bar.
-
-### Statistics screen
-
-You are presented with three options at the top, out of which at least one must be selected. This decides whether the day values, week averages or month averages are shown. The bottom options determine how far back you wish to look (since the first entry, since a week back [i.e. 7 days], since a month back [i.e. 30 days]). 
-
-<img src="media/statistic_screen.gif" alt="statistics showcase" width="10%"/>
+</table>
 
 ## Setup
 
 Here I'll detail how to set up the project for yourself in detail, and then summarize everything in a checklist that might be easier to follow.
+
+### TL;DR: Checklist for setting up the project
+
+1. Create SQL database (e.g. through [filess.io](filess.io)).
+2. Create schema and add the function `add_index()` to the schema. Add tables with the specific form as in `function.sql`.
+3. Customize your colors in `colors.xml`. Create your custom themes in `themes.xml`.
+4. Customize your language flag.
+5. In `LanguageDict.java`, find the function `generateDict()` and add or modify all the languages you wish to have with your values.
+6. Build your .apkg-file.
 
 ### How to add database
 
@@ -71,12 +177,3 @@ Adding or modifying languages is done in the same `LanguageDict.java` file as ab
 Custom schemas can be created in `app/res/values/themes/themes.xml`. These may refer to custom colors, which are defined in `app/res/values/colors.xml`. 
 
 Custom flag images can be added in `app/src/main/res` under the folders `hdpi`, `mdpi`, `xhdpi`, `xxhdpi`, `xxxhdpi`. Converting pngs to the relevant 5 filetypes can be easily done through [this website](https://romannurik.github.io/AndroidAssetStudio/index.html). Rounding the flag image can be done [here](https://onlinepngtools.com/round-png-corners).
-
-### TL;DR: Checklist for setting up the project
-
-1. Create SQL database (e.g. through [filess.io](filess.io)).
-2. Create schema and add the function `add_index()` to the schema. Add tables with the specific form as in `function.sql`.
-3. Customize your colors in `colors.xml`. Create your custom themes in `themes.xml`.
-4. Customize your language flag.
-5. In `LanguageDict.java`, find the function `generateDict()` and add or modify all the languages you wish to have with your values.
-6. Build your .apkg-file.

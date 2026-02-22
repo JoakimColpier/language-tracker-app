@@ -96,8 +96,8 @@ public class DataFragment extends Fragment {
                 // Create and initialize table row
                 TableRow tr_head = new TableRow(root.getContext());
                 colors = languageDict.getTableColors(tr_head, colors);
-                if (i%2==1) { bgColor=colors[0][0]; fontColor=colors[0][1]; }
-                else { bgColor=colors[1][0]; fontColor=colors[1][1]; }
+                if (i%2==1) { bgColor=colors[1][0]; fontColor=colors[1][1]; }
+                else { bgColor=colors[0][0]; fontColor=colors[0][1]; }
 
                 tr_head.setBackgroundColor(bgColor);
                 tr_head.setMinimumHeight(120);
@@ -127,13 +127,18 @@ public class DataFragment extends Fragment {
                 tr_head.addView(label_comment); // add the column to the table row here
 
                 // Create clickable table row (if comment)
-                if (Objects.equals(comment, "YES")) {
+                /* if (Objects.equals(comment, "YES")) {
                     tr_head.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {showCommentFragment(date);
                         }
                     });
-                }
+                } */
+                tr_head.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {showCommentFragment(date);
+                    }
+                });
                 tableLayout.addView(tr_head, new TableLayout.LayoutParams(
                         TableLayout.LayoutParams.FILL_PARENT,
                         TableLayout.LayoutParams.WRAP_CONTENT));

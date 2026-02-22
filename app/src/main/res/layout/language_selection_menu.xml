@@ -25,12 +25,13 @@
                 android:layout_height="match_parent"
                 android:drawable="@drawable/nav_item_selected_background"
                 android:gravity="center">
-                <!-- Example view to scale language flags, will be removed -->
+                <!-- Example view to scale language flags, will be duplicated and removed -->
                 <ImageView
                     android:id="@+id/img_view"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:layout_marginRight="10dp"/>
+                    android:layout_width="58dp"
+                    android:layout_height="58dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"/>
             </TableRow>
         </TableLayout>
     </LinearLayout>

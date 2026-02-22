@@ -4,28 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.add.AddFragment"
+    tools:context=".ui.data.ChangeCommentFragment"
     android:background="@color/white">
-
-    <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="0dp"
-        android:layout_marginBottom="10dp"
-        android:paddingLeft="0dp"
-        android:paddingRight="0dp"
-        android:stretchColumns="0,1,2">
-
-        <TableRow android:background="?attr/variantColor" android:padding="10dp">
-            <TextView
-                android:id="@+id/total_time_label"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:textSize="18dp"
-                android:layout_span="2"
-                android:textColor="?attr/onVariantColor"/>
-        </TableRow>
-    </TableLayout>
 
     <EditText
         android:id="@+id/editTextTime"
@@ -64,16 +44,31 @@
         app:layout_constraintVertical_bias="0.281" />
 
     <Button
-        android:id="@+id/buttonAdd"
+        android:id="@+id/buttonChange"
         android:layout_width="169dp"
         android:layout_height="99dp"
-        android:text="Add"
+        android:text="Change"
         android:textColor="?attr/onMainColor"
-        android:textSize="46dp"
+        android:textSize="30dp"
         app:backgroundTint="?attr/mainColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextComment"
+        app:layout_constraintVertical_bias="0.59" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="169dp"
+        android:layout_height="99dp"
+        android:text="Delete"
+        android:textColor="?attr/onVariantColor"
+        android:textSize="30dp"
+        app:backgroundTint="?attr/variantColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextComment"
         app:layout_constraintVertical_bias="0.59" />
@@ -120,20 +115,4 @@
         android:text="Date"
         app:layout_constraintBottom_toBottomOf="@+id/editTextDate"
         app:layout_constraintStart_toStartOf="@+id/editTextDate" />
-
-    <androidx.coordinatorlayout.widget.CoordinatorLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/faba"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end|bottom"
-            android:layout_marginBottom="16dp"
-            android:layout_marginRight="16dp"
-            app:backgroundTint="?attr/variantColor"
-            app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@drawable/ic_table_chart"
-            app:tint="?attr/onVariantColor" />
-    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

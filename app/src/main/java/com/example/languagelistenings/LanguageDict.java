@@ -100,9 +100,29 @@ public class LanguageDict {
         this.addLanguage("ge",
                 "Georgian",
                 connectionUrl,
-                "langs.Spanish", // TODO: change this
+                "langs.Georgian",
                 R.mipmap.ge_flag_round,
                 R.style.Theme_LanguageListenings_GE,
+                Locale.ENGLISH
+        );
+
+        // Danish
+        this.addLanguage("dk",
+                "Danish",
+                connectionUrl,
+                "langs.Danish",
+                R.mipmap.dk_flag_round,
+                R.style.Theme_LanguageListenings_DK,
+                Locale.ENGLISH
+        );
+
+        // Hungarian
+        this.addLanguage("hu",
+                "Hungarian",
+                connectionUrl,
+                "langs.Hungarian",
+                R.mipmap.hu_flag_round,
+                R.style.Theme_LanguageListenings_HU,
                 Locale.ENGLISH
         );
 
@@ -117,14 +137,14 @@ public class LanguageDict {
         // Primary
         TypedValue typedValuePrimaryFont = new TypedValue();
         TypedValue typedValuePrimaryContainer = new TypedValue();
-        context.getTheme().resolveAttribute(com.google.android.material.R.attr.colorOnPrimaryContainer, typedValuePrimaryFont, true);
-        context.getTheme().resolveAttribute(com.google.android.material.R.attr.colorPrimaryContainer, typedValuePrimaryContainer, true);
+        context.getTheme().resolveAttribute(R.attr.onTableColor, typedValuePrimaryFont, true);
+        context.getTheme().resolveAttribute(R.attr.tableColor, typedValuePrimaryContainer, true);
         Integer[] primaryVals = new Integer[]{typedValuePrimaryContainer.data, typedValuePrimaryFont.data};
         //Secondary
         TypedValue typedValueSecondaryFont = new TypedValue();
         TypedValue typedValueSecondaryContainer = new TypedValue();
-        context.getTheme().resolveAttribute(com.google.android.material.R.attr.colorOnSecondaryContainer, typedValueSecondaryFont, true);
-        context.getTheme().resolveAttribute(com.google.android.material.R.attr.colorSecondaryContainer, typedValueSecondaryContainer, true);
+        context.getTheme().resolveAttribute(R.attr.onTableColor, typedValueSecondaryFont, true);
+        context.getTheme().resolveAttribute(R.attr.tableColorVariant, typedValueSecondaryContainer, true);
         Integer[] secondaryVals = new Integer[]{typedValueSecondaryContainer.data, typedValueSecondaryFont.data};
 
         return new Integer[][]{primaryVals, secondaryVals};

@@ -2,13 +2,17 @@
     <!-- Base application theme. -->
     <style name="Theme.LanguageListenings" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/blue_nl</item>
-        <item name="colorPrimaryVariant">@color/blue_nl</item>
-        <item name="colorOnPrimary">@color/black</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/blue_nl</item>
-        <item name="colorSecondaryVariant">@color/blue_nl</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="mainColor">@color/green_hu</item>
+        <item name="variantColor">@color/darkred_hu</item>
+        <item name="navBarColor">@color/darkgreen_hu</item>
+        <item name="headerColor">@color/red_hu</item>
+        <item name="tableColor">@color/white</item>
+        <item name="tableColorVariant">@color/tablegreen_hu</item>
+        <item name="onMainColor">@color/white</item>
+        <item name="onVariantColor">@color/white</item>
+        <item name="onNavBarColor">@color/white</item>
+        <item name="onHeaderColor">@color/white</item>
+        <item name="onTableColor">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->

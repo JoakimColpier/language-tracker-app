@@ -1,65 +1,76 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.LanguageListenings" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Add common stuff here -->
+        <!-- Status bar always the same as the nav bar color -->
+        <item name="android:statusBarColor">?attr/navBarColor</item>
+        <!-- Default values -->
+        <item name="onMainColor">@color/white</item>
+        <item name="onVariantColor">@color/white</item>
+        <item name="onNavBarColor">@color/white</item>
+        <item name="onHeaderColor">@color/white</item>
+        <item name="onTableColor">@color/black</item>
     </style>
 
     <!-- Specific language themes. -->
     <style name="Theme.LanguageListenings.NL" parent="Theme.LanguageListenings">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/lightorange_nl</item>
-        <item name="colorPrimaryVariant">@color/darkorange_nl</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/blue_nl</item>
-        <item name="colorSecondaryVariant">@color/blue_nl</item>
-        <item name="colorOnSecondary">@color/white</item>
-        <!-- Table colors (data fragment). -->
-        <item name="colorPrimaryContainer">@color/white</item>
-        <item name="colorOnPrimaryContainer">@color/black</item>
-        <item name="colorSecondaryContainer">@color/tableblue_nl</item>
-        <item name="colorOnSecondaryContainer">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        <!-- Figure colors -->
+        <item name="mainColor">@color/lightorange_nl</item>
+        <item name="variantColor">@color/blue_nl</item>
+        <item name="navBarColor">@color/darkorange_nl</item>
+        <item name="headerColor">@color/blue_nl</item>
+        <item name="tableColor">@color/white</item>
+        <item name="tableColorVariant">@color/tableblue_nl</item>
+        <!-- Text colors -->
+
     </style>
 
     <style name="Theme.LanguageListenings.ES" parent="Theme.LanguageListenings">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/red_es</item>
-        <item name="colorPrimaryVariant">@color/orange_es</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/blue_es</item>
-        <item name="colorSecondaryVariant">@color/lightblue_es</item>
-        <item name="colorOnSecondary">@color/white</item>
-        <!-- Table colors (data fragment). -->
-        <item name="colorPrimaryContainer">@color/white</item>
-        <item name="colorOnPrimaryContainer">@color/black</item>
-        <item name="colorSecondaryContainer">@color/tableblue_es</item>
-        <item name="colorOnSecondaryContainer">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        <!-- Figure colors -->
+        <item name="mainColor">@color/red_es</item>
+        <item name="variantColor">@color/blue_es</item>
+        <item name="navBarColor">@color/orange_es</item>
+        <item name="headerColor">@color/lightblue_es</item>
+        <item name="tableColor">@color/white</item>
+        <item name="tableColorVariant">@color/tableblue_es</item>
+        <!-- Text colors -->
+
     </style>
 
     <style name="Theme.LanguageListenings.GE" parent="Theme.LanguageListenings">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/darkred_ge</item>
-        <item name="colorPrimaryVariant">@color/white_ge</item>
-        <item name="colorOnPrimary">@color/black</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/darkred_ge</item>
-        <item name="colorSecondaryVariant">@color/darkred_ge</item>
-        <item name="colorOnSecondary">@color/white</item>
-        <!-- Table colors (data fragment). -->
-        <item name="colorPrimaryContainer">@color/white</item>
-        <item name="colorOnPrimaryContainer">@color/black</item>
-        <item name="colorSecondaryContainer">@color/tablered_ge</item>
-        <item name="colorOnSecondaryContainer">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        <!-- Figure colors -->
+        <item name="mainColor">@color/darkred_ge</item>
+        <item name="variantColor">@color/darkred_ge</item>
+        <item name="navBarColor">@color/white_ge</item>
+        <item name="headerColor">@color/darkred_ge</item>
+        <item name="tableColor">@color/white</item>
+        <item name="tableColorVariant">@color/tablered_ge</item>
+        <!-- Text colors -->
+        <item name="onNavBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.LanguageListenings.DK" parent="Theme.LanguageListenings">
+        <!-- Figure colors -->
+        <item name="mainColor">@color/red_dk</item>
+        <item name="variantColor">@color/white_dk</item>
+        <item name="navBarColor">@color/darkred_dk</item>
+        <item name="headerColor">@color/darkblue_dk</item>
+        <item name="tableColor">@color/white</item>
+        <item name="tableColorVariant">@color/tablered_dk</item>
+        <!-- Text colors -->
+        <item name="onVariantColor">@color/black</item>
+    </style>
+
+    <style name="Theme.LanguageListenings.HU" parent="Theme.LanguageListenings">
+        <!-- Figure colors -->
+        <item name="mainColor">@color/darkgreen_hu</item>
+        <item name="variantColor">@color/darkred_hu</item>
+        <item name="navBarColor">@color/green_hu</item>
+        <item name="headerColor">@color/red_hu</item>
+        <item name="tableColor">@color/white</item>
+        <item name="tableColorVariant">@color/tablegreen_hu</item>
+        <!-- Text colors -->
+        <item name="onVariantColor">@color/white</item>
     </style>
 
     <!--other-->

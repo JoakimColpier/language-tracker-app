@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Figure colors -->
+    <attr name="mainColor" format="color"/>
+    <attr name="variantColor" format="color"/>
+    <attr name="navBarColor" format="color"/>
+    <attr name="headerColor" format="color"/>
+    <attr name="tableColor" format="color"/>
+    <attr name="tableColorVariant" format="color"/>
+    <!-- Text colors -->
+    <attr name="onMainColor" format="color"/>
+    <attr name="onVariantColor" format="color"/>
+    <attr name="onNavBarColor" format="color"/>
+    <attr name="onHeaderColor" format="color"/>
+    <attr name="onTableColor" format="color"/>
+</resources>

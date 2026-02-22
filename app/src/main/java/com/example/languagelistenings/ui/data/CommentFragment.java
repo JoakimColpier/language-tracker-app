@@ -72,14 +72,27 @@ public class CommentFragment  extends Fragment {
             Integer[][] colors = null;
             while (rs.next()) {
                 // Get comment
-                String comment = rs.getString("comment");
-                String time = rs.getString("amount") + " min";
+                final Integer id = rs.getInt("id");
+                final Integer amount = rs.getInt("amount");
+                final String comment = rs.getString("comment");
+                String time = String.valueOf(amount) + " min";
                 // Create and initialize table row
                 TableRow tr_head = new TableRow(root.getContext());
                 tr_head.setMinimumHeight(120);
                 tr_head.setGravity(Gravity.CENTER_VERTICAL);
                 TextView label_comment = new TextView(root.getContext());
                 TextView label_time = new TextView(root.getContext());
+                // Clickable
+                tr_head.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        try {
+                            openCommentChangeFragment(id, amount, date, comment);
+                        } catch (SQLException e) {
+                            throw new RuntimeException(e);
+                        }
+                    }
+                });
                 // Fix colors
                 colors = languageDict.getTableColors(tr_head, colors);
                 if (i%2==1) { bgColor=colors[0][0]; fontColor=colors[0][1]; }
@@ -96,11 +109,14 @@ public class CommentFragment  extends Fragment {
                         ViewGroup.LayoutParams.WRAP_CONTENT
                 ));
                 // Comment modifiers
-                if (comment.equals("")) {
-                    comment = "~ No comment ~";
+                String comment_mod;
+                if (comment.isEmpty()) {
+                    comment_mod = "~ No comment ~";
                     label_comment.setTypeface(null, Typeface.ITALIC);
+                } else {
+                    comment_mod = comment;
                 }
-                label_comment.setText(comment);
+                label_comment.setText(comment_mod);
                 label_comment.setTextSize(20);
                 label_comment.setSingleLine(false); // Important: allow multi-line
                 label_comment.setMaxLines(5);       // Optional: limit number of lines
@@ -126,11 +142,21 @@ public class CommentFragment  extends Fragment {
         return root;
     }
 
+    public void openCommentChangeFragment(Integer id, Integer amount, String date, String comment) throws SQLException {
+        NavController navController = NavHostFragment.findNavController(this);
+        Bundle bundle = new Bundle();
+        bundle.putInt("id", id);
+        bundle.putInt("amount", amount);
+        bundle.putString("date", date);
+        bundle.putString("comment", comment);
+        navController.navigate(R.id.action_commentFragment_to_changeCommentFragment, bundle);
+    }
+
     public ResultSet retrieveCommentInfo(String date) {
         try {
             PreparedStatement statement =
                     con.prepareStatement(
-                            "SELECT amount, comment FROM " + languageDict.getCurrentLanguageInfo().getDbName() + " WHERE dt = ? :: DATE"
+                            "SELECT id, amount, dt, comment FROM " + languageDict.getCurrentLanguageInfo().getDbName() + " WHERE dt = ? :: DATE"
                     );
             statement.setString(1, date);
             return statement.executeQuery();

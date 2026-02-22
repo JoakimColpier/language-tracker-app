@@ -10,12 +10,12 @@
         android:layout_height="match_parent">
         <TableRow
             android:padding="10dp"
-            android:background="?attr/colorSecondaryVariant">
+            android:background="?attr/headerColor">
             <TextView
                 android:id="@+id/comment_info"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="?attr/colorOnSecondary"
+                android:textColor="?attr/onHeaderColor"
                 android:textSize="18dp" />
         </TableRow>
         <TableLayout
@@ -24,18 +24,18 @@
             android:layout_height="match_parent">
             <TableRow
                 android:padding="10dp"
-                android:background="?attr/colorSecondaryVariant">
+                android:background="?attr/headerColor">
                 <TextView
                     android:layout_width="200px"
                     android:layout_height="match_parent"
                     android:text="Time"
-                    android:textColor="?attr/colorOnSecondary"
+                    android:textColor="?attr/onHeaderColor"
                     android:textSize="18dp" />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Comment"
-                    android:textColor="?attr/colorOnSecondary"
+                    android:textColor="?attr/onHeaderColor"
                     android:textSize="18dp" />
             </TableRow>
         </TableLayout>

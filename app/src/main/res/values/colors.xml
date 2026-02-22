@@ -19,6 +19,19 @@
     <color name="lightred_ge">#FF0000</color>
     <color name="darkred_ge">#DF1C44</color>
     <color name="tablered_ge">#FFB8B8</color>
+
+    <color name="white_dk">#DAE6E3</color>
+    <color name="red_dk">#E61414</color>
+    <color name="darkred_dk">#DC1E1E</color>
+    <color name="tablered_dk">#FFB8B8</color>
+    <color name="darkblue_dk">#3E4A59</color>
+
+    <!-- 477050 -->
+    <color name="green_hu">#69885A</color>
+    <color name="darkred_hu">#BB051F</color>
+    <color name="darkgreen_hu">#406A3A</color>
+    <color name="red_hu">#CE2939</color>
+    <color name="tablegreen_hu">#5CD6B7</color>
     <!-- ...to here -->
 
     <color name="black">#FF000000</color>

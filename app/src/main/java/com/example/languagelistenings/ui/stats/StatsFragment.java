@@ -123,7 +123,6 @@ public class StatsFragment extends Fragment {
         LocalDateTime dt_local = LocalDateTime.ofInstant(dt.toInstant(), ZoneId.systemDefault());
         long daysBetween = Duration.between(dt_local, dt_today_local).toDays();
         // Add datapoints to graph, amount varies by settings
-        DataPoint[] dataPoints;
         Integer amount_i;
         if (settings.equals("All")){
             amount_i = (int) daysBetween;
@@ -132,7 +131,7 @@ public class StatsFragment extends Fragment {
         } else { // 30 days
             amount_i = 30;
         };
-        dataPoints = new DataPoint[amount_i+1];
+        DataPoint[] dataPoints = new DataPoint[amount_i+1];
         graphView.getViewport().setMaxX(amount_i);
         Integer i=0;
         // Daily
@@ -141,20 +140,19 @@ public class StatsFragment extends Fragment {
             Date db_dt = rs.getDate("dt");
             LocalDateTime db_dt_local = LocalDateTime.ofInstant(db_dt.toInstant(), ZoneId.systemDefault());
             while (db_dt_local.isBefore(dt_today_local.minusDays(1)) && i<=amount_i) {
-                dataPoints[i] = new DataPoint(i,0);
+                dataPoints[amount_i-i] = new DataPoint(amount_i-i,0);
                 dt_today_local=dt_today_local.minusDays(1);
                 i++;
             }
             if (i>amount_i) {break;};
             // Add to value
             String value = rs.getString("sumAmount");
-            dataPoints[i] = new DataPoint(i,Integer.parseInt(value));
+            dataPoints[amount_i-i] = new DataPoint(amount_i-i,Integer.parseInt(value));
             dt_today_local=dt_today_local.minusDays(1);
             i++;
         };
         rs.beforeFirst(); // reinitialize
         LineGraphSeries<DataPoint> series_day = new LineGraphSeries<DataPoint>(dataPoints);
-
         // Weekly
         dt_today_local = LocalDateTime.now();
         DataPoint[] dataPoints_week = new DataPoint[amount_i+1];
@@ -200,7 +198,7 @@ public class StatsFragment extends Fragment {
         if (settings.equals("All")){
             binding.LabelOldestDate.setText(dt_local.format(DateTimeFormatter.ofPattern("dd/MM-yy")));
         } else if (settings.equals("7 days")) {
-            binding.LabelOldestDate.setText(dt_today_local.minusDays(7).format(DateTimeFormatter.ofPattern("dd/MM-yy")));
+            binding.LabelOldestDate.setText(dt_today_local.minusDays(6).format(DateTimeFormatter.ofPattern("dd/MM-yy")));
         } else { // 30 days
             binding.LabelOldestDate.setText(dt_today_local.minusDays(30).format(DateTimeFormatter.ofPattern("dd/MM-yy")));
         };
